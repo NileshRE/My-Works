@@ -1,0 +1,46 @@
+body {
+  background-color: rgba(255, 166, 0, 0.389);
+}
+body button {
+  padding: 16px 24px;
+  margin: 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+body button:nth-child(1) {
+  background-color: green;
+}
+body button:nth-child(2) {
+  display: none;
+  background-color: red;
+}
+body button:nth-child(3) {
+  background-color: orange;
+}
+
+form {
+  display: flex;
+}
+form div {
+  display: grid;
+  margin: 8px 16px;
+}
+form label {
+  color: blueviolet;
+  font-weight: 600;
+  font-size: large;
+  margin-bottom: 12px;
+}
+form input[type=number] {
+  font-size: 18px;
+  padding: 8px;
+  width: 60px;
+  height: 30px;
+  background: transparent;
+  border:unset;
+  border-bottom: 1px solid orange;
+}
+
+

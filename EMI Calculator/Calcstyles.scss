@@ -1,0 +1,29 @@
+.emicalc{
+    p{
+        font-weight: 600;
+    }
+    input{
+        width: 60%;
+        height: 20px;
+        
+    }
+    label{
+       font-weight: 600;
+       color:rgb(22, 201, 22);
+    }
+    .tenure-container{
+        display: flex;
+        justify-content: space-around;
+        width:60%;
+        .tenure{
+            border: none;
+            padding: 12px 20px;
+            border-radius: 24px;
+        }
+        .selected{
+            @extend .tenure;
+            color: #fff;
+            background-color: rgba(22, 74, 194, 0.881)
+        }
+    }
+}

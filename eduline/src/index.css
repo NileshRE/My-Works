@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 25%;
+    margin: 24px;
+}
+
+.courseimg{
+    width: 25vw;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.name{
+    font-weight: 500;
+    font-size: large;
+    margin: 4px 0;
+}
+
+.course-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 32px;
+    justify-content: flex-start;
+}
+
+h3, .container{
+    margin: 24px 32px;
+    width: 25%;
+}
+
+@media (max-width: 600px) {
+    .container, .courseimg {
+      width: 80%; 
+    }
+    h3{
+        width:80%;
+        margin: 16px;
+    }
+    .title2{
+        width: 90%;
+    }
+    .logo-container{
+        display: flex;
+        flex-wrap: wrap;
+        
+        max-width: 100%;
+    }
+
+    .list{
+        padding: 8px;
+        font-weight: 500;
+    }
+    .nav-items{
+        display:inline-block;
+        width: 100%;
+    }
+}
+
+.cost{
+    font-weight: 700;
+    font-size: large;
+    margin: 4px 0;
+}
+
+.btn{
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin: 12px 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.btn2{
+    padding: 8px 20px;
+    border:1px solid grey;
+    border-radius: 6px;
+    margin: 12px 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.duration{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 300;
+}
+
+
+.rating{
+    display: flex;
+    justify-items: center;
+    margin: 4px 0;
+    color: grey;
+}
+
+.mentors{
+    margin: 6px 0;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.summary{
+    width: 70%;
+}
+  
+.enrolled-courses{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 16px 32px;
+    margin: 32px;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    .enrolled-courses {
+      padding: 8px;
+      margin: 8px; 
+      display: grid;
+    }
+   
+    .body{
+        width:100%;
+    }
+    .subheading2{
+        font-size: small;
+    }
+    .logo{
+        width:40%;
+    }
+  }
+
+.progress-bar{
+    display: grid;
+    padding: 6px 0;
+}
+
+.due{
+    font-size: medium;
+    color: black;
+}
+
+.due-date{
+    display: grid;
+}
+
+.list{
+    list-style-type: none;
+    padding: 16px;
+    font-weight: 500;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.drop{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    width:50%;
+    margin: 4% 20%;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+}
+
+.titles{
+    width:50%;
+    margin: 0 20%;
+    padding: 12px 0;
+    font-weight: 400;
+}
+
+.name1{
+    font-weight: 600;
+    line-height: 60%;
+}
+
+.info{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.title2{
+    width:80%;
+    margin: 0;
+}
+
+.body{
+    width:80%;
+    margin:2% 10%;
+}
+
+.subheading, .subheading2{
+    font-weight: 600;
+    font-size: large;
+}
+
+.search-box{
+    padding:6px 12px;
+    border-radius:6px;
+    margin:24px 4px 6px 40px;
+}

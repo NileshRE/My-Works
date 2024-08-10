@@ -1,0 +1,62 @@
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #5c5c5c;
+}
+
+td{
+  padding: 8px;
+  border: 1px solid #5c5c5c;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin: 16px 8px;
+}
+
+.pagination-elements{
+  padding: 8px;
+  margin: 4px;
+  border: 1px solid #5c5c5c;
+  box-shadow: 2px 2px 2px 0px #5c5c5c;
+  cursor: pointer;
+}
+
+.pagination-selected{
+  background-color: #7474741b;
+  border: none;
+}
+
+
+.list-item-count{
+  font-size: small;
+  padding: 16px 32px;
+}
+
+.btn{
+  padding: 6px 12px;
+}
+
+input{
+  padding: 6px 12px;
+}
+
+form{
+  display: flex;
+  justify-content: space-between;
+  margin:8px 0;
+}
+
+.sort-box{
+  margin-right: 8px;
+  padding: 6px 12px;
+}
+
+.sorter{
+  cursor: pointer;
+}

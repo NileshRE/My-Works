@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice JS</title>
+    <link rel="stylesheet" type="text/css" href="app.css"></link>
+</head>
+<body>
+<div id="lists">
+    <h2>Add your today TO-DO tasks here</h2>
+    <form id="search-box">
+    <input type="text" placeholder="Search tasks.."/>
+</form>
+<ol>
+    <li class="list-item"> <p class="topic">JS</p>
+        <button class="btn">Delete</button></li>
+    <li class="list-item">
+        <p class="topic">DOM</p>
+    <button class="btn">Delete</button>
+    </li>
+</ol>
+
+<form id="add_list">
+ <input type="checkbox" id="hide"/>
+    <label for="hide">Hide all items</label>
+    <div class="add-tasks">
+    <input type="text" placeholder="Add tasks to do"/>
+    <button class="add_btn">Add</button>
+    </div>
+</form>
+<div id="tabbed-content">
+    <ul class="tabs">
+        <li data-target="#about" class="active">About</li>
+        <li data-target="#contact">Contact</li>
+    </ul>
+<div class="panel active" id="about">
+    <p>About</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laborum aperiam, porro quas in obcaecati recusandae et commodi omnis placeat rem laudantium. Adipisci a voluptate tempore fuga, suscipit quos obcaecati.</p>
+</div>
+<div class="panel" id="contact">
+    <p>Contact</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quae enim accusantium dolorem cupiditate incidunt fuga dolor totam iste doloribus unde minus, expedita consectetur ullam quia harum laudantium blanditiis esse.</p>
+</div>
+</div>
+    <script src="app.js"></script>
+    </div>
+</body>
+</html>

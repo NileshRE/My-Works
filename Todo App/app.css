@@ -1,0 +1,67 @@
+#lists{
+    box-shadow: 2px 1px whitesmoke;
+    width: 50%;
+    padding: 32px;
+    border-radius: 8px;
+    transform: translate(50%,20%);
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: large;
+    background-color: rgb(14, 203, 140);
+    color: azure;
+    padding: 4px;
+}
+
+.btn{
+    background-color: rgb(14, 203, 140);
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add_btn{
+    padding: 6px 12px;
+    background-color: rgb(14, 203, 140);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.6px solid rgb(182, 182, 182);
+}
+
+.add-tasks{
+    display: flex;
+    transform: translate(40%, 40%);
+}
+
+#tabbed-content .panel.active{
+    display: block;
+    list-style-type: none;
+}
+
+#tabbed-content .panel{
+    display: none;
+}
+
+
+#tabbed-content li{
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: rgba(14, 203, 140);
+    color: azure;
+    cursor: pointer;
+    border-radius: 6px;
+}
