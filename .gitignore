@@ -2,3 +2,5 @@
 /react-query/vite.config.js
 /web_scrap/.next
 /web_scrap/node_modules
+
+node_modules/

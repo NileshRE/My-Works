@@ -12,8 +12,8 @@
   <li>Tried Implementing the New <b>React Query</b> for data fetching, caching, pagination etc.</li>
   <li>Currency Converter React App</li>
   <li>Web Scrapper using Cheerio by which any product price can be fetched.</li>
+  <li>React Chat App using Web Sockets and Chakra UI</li>
 </ol>
-
 
 <h4>Links</h4>
 - [PWA App](https://weatherapppw.netlify.app/)
@@ -37,6 +37,5 @@
 <li>Debouncing</li>
 <li>Count By</li>
 </ol>
-
 
 <p>Will keep adding to the list...</p>
